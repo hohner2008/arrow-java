@@ -104,11 +104,11 @@ under the License.
     <dep.fbs.version>25.2.10</dep.fbs.version>
     <dep.avro.version>1.12.0</dep.avro.version>
     <dep.mockito-bom.version>5.17.0</dep.mockito-bom.version>
-    <arrow.vector.classifier></arrow.vector.classifier>
+    <arrow.vector.classifier/>
     <forkCount>2</forkCount>
     <checkstyle.version>10.23.0</checkstyle.version>
     <checkstyle.failOnViolation>true</checkstyle.failOnViolation>
-    <error_prone_core.version>2.37.0</error_prone_core.version>
+    <error_prone_core.version>2.38.0</error_prone_core.version>
     <checker.framework.version>3.49.3</checker.framework.version>
     <logback.version>1.5.18</logback.version>
     <doclint>none</doclint>
@@ -369,7 +369,7 @@ under the License.
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -382,7 +382,7 @@ under the License.
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -395,7 +395,7 @@ under the License.
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -408,7 +408,7 @@ under the License.
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -729,7 +729,7 @@ under the License.
               <file>${maven.multiModuleProjectDirectory}/dev/license/asf-xml.license</file>
               <delimiter>(&lt;configuration|&lt;project)</delimiter>
             </licenseHeader>
-            <sortPom></sortPom>
+            <sortPom/>
           </pom>
           <java>
             <googleJavaFormat>
